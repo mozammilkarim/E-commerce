@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Queen</title>
+    <link rel="shortcut icon" href="./newLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div class="topAlert">
+        <h2>
+            FREE SHIPPING | DISCOUNT | COD | CHARITY
+        </h2>
+        <!-- add whats link -->
+        <!-- <h3>    +91 7827141330</h3> -->
+    </div>
+    <nav class="navBar">
+        <!-- a removable alert -->
+        <!-- in case of mobile , logo will vanish -->
+        <a class="navbarBrand" href="#">
+            <img src="./newLogo.png" alt="" height="100">
+            <!-- <p>Behave like a Queen..</p> -->
+        </a>
+        <div class="navContainer">
+            <div class="welcome">
+                <strong>DiscountQueen Welcomes You!</strong>
+
+            </div>
+
+            <div class="navLinks">
+                <a href="#bestSeller"><strong> Home</strong></a>
+                <a href="#bestSeller"><strong>Products</strong></a>
+                <!-- <a href="#"><strong> Sale</strong></a> -->
+                <a href="#footer"><strong>Contact</strong></a>
+                <a href="details.html"><strong>How to Buy</strong></a>
+
+            </div>
+        </div>
+
+
+
+    </nav>
+    <!-- search bar -->
+    <div class="searchBar">
+        <div class="searchLinks">
+            <a href="details.html">Our Moto</a>
+            <a href="#bestSeller">Sale</a>
+            <a href="details.html">Who is Queen?</a>
+        </div>
+        <form class="search">
+            
+            <input type="search" onchange="searchCheck()" onsubmit="searchCheck()" name="searchItem" id="searchItem" placeholder="search">
+            <!-- <button>search</button> -->
+            <label for="searchItem" >
+                <i class="fas fa-search"></i>
+            </label>
+        </form>
+    </div>
+    <!-- images links for pages -->
+    <div class="afterNavbar">
+        <a href="#bestSeller" class="afterNavbarLink">
+            <img src="./afterNavbar.jpg" alt="Pre RamaZan Sale">
+        </a>
+    </div>
+    <!-- pre ramadan sale -->
+    <div class="afterNavbar">
+        <a href="#bestSeller" class="afterNavbarLink">
+            <img src="./preRamadanSale.jpg" alt="Pre RamaZan Sale">
+        </a>
+    </div>
+    <div class="lowRangeSection">
+        <a href="#bestSeller" class="afterNavbarLink">
+            <img src="./lowRange.jpg" alt="lowRange">
+        </a>
+        <div class="flauntQueen">
+            <h3>Flaunt like a Queen</h3>
+            <p><em>
+                    With our fresh and stylish designs ,<strong>
+                        You gets the attention
+                    </strong> of people like a queen and Partnering with us
+                    <strong>You can help </strong> poor students to study because we're giving
+                    <strong> 10% of our profits</strong> to them.</p>
+
+            </em>
+            <p><em>Each suit <strong>You buy</strong> , poor students <strong>gets help.</strong> </em> </p>
+        </div>
+    </div>
+    <div class="lowRangeSection">
+        <a href="details.html" class="afterNavbarLink">
+            <img src="./poorStudent.jpg" alt="poorChild">
+        </a>
+        <div class="flauntQueen">
+            <h3>Queen helps who needs help</h3>
+            <p><em>
+                    If we want real peace,<strong>
+                        we've to start with educating poor children.
+                    </strong>
+                    <br>
+                    Through DiscountQueen <strong>you can help</strong> poor students to <strong>build their
+                        future</strong> and helping <strong>society/country</strong> as a whole
+                    If YOU want to know who is getting help from YOUR Purchases, the below Post's link is for
+                    YOU. Click on It and Know what Impact YOU can create.
+
+                </em>
+            <p><em>Each suit <strong>You buy</strong> , poor students <strong>gets help.</strong> </em> </p>
+            <div class="navLinks">
+                <a href="details.html"><strong> Know Impact</strong></a>
+            </div>
+        </div>
+    </div>
+    <!-- load all collection button with link -->
+    <section class="bestSeller" id="bestSeller">
+        <h3>Our Unique Best Sellers</h3>
+        <div class="bestSellersSection">
+            <a class="movement" id="leftButton">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <div class="bsImage">
+                <!-- <a href="#" class="afterNavbarLink">
+                    <img src="./suit21.jpg" alt="suit">
+                </a> -->
+            </div>
+            <a class="movement" id="rightButton">
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+        <div class="productDescription">
+            <!-- <p id="pName">Agha Noor</p>
+            <p id="pDescription">Pure cotton Lawn suit</p>
+            <p id="pPrice">750</p> -->
+        </div>        
+    </section>
+
+    <!-- customer review cards -->
+    <section class="customerReview">
+        <h3 style="margin-top: 10px;">Listen People Like You</h3>
+        <!-- reviews , review card should transition on hover,a carousel-->
+        
+        <div class="reviewCard">
+            <!-- will render the following dynamically -->
+            <!-- <i class="fas fa-quote-left"></i>
+            <p>
+                Discount Queen ek nayi soch ke sath kaam kar rahi hai, baki koi website community ke liye kaam nahi
+                karti hai. yahan mujhe discount bhi milta hai aur good feel bhi donate karne ka..
+            </p>
+            <h5>-Ishpreet Kaur</h5> -->
+        </div>
+        
+    </section>
+    <!-- facility box/bar showing free delivery,etc -->
+    <section class="promiseSection">
+        <a href="#" class="afterNavbarLink">
+            <img src="./bigPromises.jpg" alt="poorChild">
+        </a>
+    </section>
+
+    <!-- footer -->
+    <div class="preFooter">
+        <p> If You have any Doubts , Reach Us at e-mail
+            <em>contact@discountqueen.in</em>
+        </p>
+        <h5>HelpDesk--> +91 7827141330</h5>
+    </div>
+    <footer id="footer">
+        <div class="supportDetail">
+            <!-- important links -->
+
+            Need Support
+        </div>
+        <div class="lastStrip">
+            &copy;2022 DiscountQueen IN
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp-square"></i>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
