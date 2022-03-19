@@ -215,11 +215,12 @@ footer{
     .welcome{
         top: 1px;
         padding: 0px;
-        font-size: 13px;
+        font-size: 23px;
         border: 2px dotted #641C0E;
     }
     .topAlert h2{
-        font-size: 10px;
+        font-size: 4vw;
+        text-align: center;
     }
     .navLinks a{
         font-size: 10px;
