@@ -17,26 +17,24 @@ a{
 .navBar{
     max-height: 20vh;
     width: 100%;
+    text-align: center;
     background-color: bisque;
 }
 .navbarBrand{
     padding-left: 10vw;
-    /* cursor: pointer; */
 }
 .navContainer{
-    /* display: inline-block; */
     position: relative;
+    display: inline-block;
     bottom: 20vh;
+    padding: 10px 0px;
 }
 .navLinks{
-    /* to be changed according to mobile */
-    /* position: relative; */
     padding: 5px;
     text-align: center;
     width: 100%;
 }
 .welcome{
-    /* border: 2px solid black; */
     font-size: 30px;
     text-align: center;
     width: 100%;
@@ -70,18 +68,14 @@ a{
     font-size: 20px;
     padding: 5px 0px;
     background-color: rgb(243, 242, 242);
-    /* border: 2px solid black; */
 }
 .searchLinks{
     display: inline-block;
-    /* justify-content: space-evenly; */
     text-align: center;
-    /* border: 2px solid black; */
 }
 .searchLinks a{
     padding-left: 30px;
     text-decoration: none;
-    /* border: 2px solid black; */
     color: #706c6c;
     font-weight: bold;
     font-size: 15px;
@@ -104,13 +98,10 @@ a{
     outline: none;
 }
 .search input:focus{
-    /* background: none; */
     background: transparent;
     border: none;
 }
-/* .no-outline:focus {
-    outline: none;
-  } */
+
 .search button{
     color: black;
     background-color: white;
@@ -144,27 +135,25 @@ h3{
 }
 .bestSellersSection{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
-
 }
+/* bs stands for best seller */
 .bsImage{
     width: 45%;
     border: 1px solid black;
     border-radius: 5px;
     margin: 2px;
 }
+/* means the product card class that is changing */
 .movement{
     position: relative;
     top: 9rem;
     cursor: pointer;
 }
 .customerReview{
-    /* display: flex; */
     align-items: center;
 }
 .reviewCard{
-    /* width: 80%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,7 +181,7 @@ h3{
 footer{
     text-align: center;
     background-color: #413f3f;
-    font-size: 20px;
+    font-size: 15px;
     height: 10vh;
     justify-content: center;
 }
@@ -200,15 +189,16 @@ footer{
     text-align: center;
     font-weight: 200;
 }
+/* for smart phones */
 @media screen and (max-width: 480px) {
     .navbarBrand {
       display: none;
     }
+    
     .navBar a strong {
         font-size: 14px;
     }
     .navContainer{
-        /* display: inline-block; */
         position: relative;
         bottom: 0;
     }
@@ -233,3 +223,14 @@ footer{
         display: block;
     }
   }
+/* for air pads */
+@media screen and (max-width:2000px) and (min-width: 480px) {
+    .navContainer {
+      bottom: 5px;
+      padding: 5px 0px;
+      display: inline-block;
+    }
+    .navbarBrand{
+        padding-left: 1vw;
+    }
+}
